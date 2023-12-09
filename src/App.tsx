@@ -1,4 +1,4 @@
-import React, { FC, Suspense, lazy } from "react";
+import { FC, Suspense, lazy } from "react";
 
 import Loading from "@/components/Loading";
 import Nav from "@/sections/Nav";

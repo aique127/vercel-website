@@ -1,10 +1,9 @@
 // import bilibili from "@/assets/svg/bilibili.svg";
 import juejin from "@/assets/svg/juejin.svg";
-import zhihu from "@/assets/svg/zhihu.svg";
+// import zhihu from "@/assets/svg/zhihu.svg";
 // import weixin from "@/assets/svg/weixin.svg";
 import github from "@/assets/svg/github.svg";
-import gmail from "@/assets/svg/gmail.svg";
-import peng from "@/assets/svg/peng.svg";
+// import gmail from "@/assets/svg/gmail.svg";
 import qq from "@/assets/svg/qq.svg";
 
 // 图标
@@ -15,14 +14,13 @@ import ts from "@/assets/icons/ts.png";
 import sass from "@/assets/icons/sass.png";
 
 export const share = [
-  { image: github, url: "www.aiq127.cn" },
-  { image: juejin, url: "www.aiq127.cn" },
-  { image: zhihu, url: "www.aiq127.cn" },
-  { image: peng, url: "www.aiq127.cn" },
+  { image: github, url: "https://github.com/aique127/vercel-website" },
+  { image: juejin, url: "https://juejin.cn/user/4045801153636734" },
+  // { image: zhihu, url: "www.aiq127.cn" },
   // { image: weixin, url: "weixin" },
   // { image: bilibili, url: "bilibili" },
-  { image: qq, url: "www.aiq127.cn" },
-  { image: gmail, url: "www.aiq127.cn" },
+  { image: qq, url: "mailto:840926292@qq.com?subject=想说啥就说啥吧&body=告诉我你的想法~" },
+  // { image: gmail, url: "www.aiq127.cn" },
 ];
 
 

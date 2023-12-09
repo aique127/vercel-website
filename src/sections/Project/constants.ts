@@ -1,99 +1,45 @@
 import { projectListProps } from './index';
-import Fs from '@/assets/images/FS-com-Data-Center-Enterprise-Telecom.webp';
-import Fs1 from '@/assets/images/AP-N505-Cloud-Managed-Wi-Fi-6-1.webp';
-import Fs2 from '@/assets/images/AP-N505-Cloud-Managed-Wi-Fi-6-2.webp';
-import Fs3 from '@/assets/images/AP-N505-Cloud-Managed-Wi-Fi-6-3.webp';
-import Fs4 from '@/assets/images/AP-N505-Cloud-Managed-Wi-Fi-6-4.webp';
-import Fs5 from '@/assets/images/AP-N505-Cloud-Managed-Wi-Fi-6-5.webp';
-import Community from '@/assets/images/FS-Community.webp';
-import Community1 from '@/assets/images/FS-Community-List.webp';
-import Community2 from '@/assets/images/FS-Community-Blog.webp';
-import Community3 from '@/assets/images/FS-Community-Story.webp';
-import CommunityLogin from '@/assets/images/FS-Community-Login.webp';
-import RemapCity from '@/assets/images/RemapCity.webp';
-import PISX from '@/assets/images/PISX.webp';
-import CMS from '@/assets/images/FS-CMS.webp';
-import CMSLogin from '@/assets/images/CMS-Login.webp';
-import CommunityCMS from '@/assets/images/FS-Community-backstage.webp';
+import  Mitrade1 from '@/assets/images/mitrade1.png';
+import Mitrade2 from '@/assets/images/mitrade2.png';
+import Fxb from '@/assets/images/fengxiangbiao.png';
+// import Fzyl from '@/assets/images/fengzhi.png';
 
 const thumb = 'https://dummyimage.com/832x540/000/fff.png&text=loading';
 
 export const projectList:projectListProps[] = [
   {
     projectId: 1,
-    img: RemapCity,
-    alt: '腾云慧城 RemapCity',
-    title: '腾云慧城云平台',
-    desc: '致力于为平衡城市发展需求和行业应用提供解决方案和服务，持续为客户创造价值，以填补城市不动产资产管理空白领域为核心使命，打造智慧城市的资产运营管理平台。',
-    tech: 'web & mobile',
-    href: 'https://www.remapcity.com/',
-    technical: ['Vue', 'ElementUI', 'Scss', 'Webpack', 'Npm', 'Vant'],
-    imagesArr: [{ thumb, url: RemapCity, alt: 'RemapCity'}]
+    img: Mitrade1,
+    alt: '交易平台 Mitrade',
+    title: '交易平台 Mitrade',
+    desc: '通过Mitrade平台，您可以投资、交易更广泛的国际金融市场，涵盖股票、指数、商品、外汇等数百个热门品种。不仅限于体验友好的手机版和网页版交易平台，Mitrade还为您提供有竞争力的交易成本、快速的交易执行、优秀的客户服务和丰富的资讯支持，助力您及时把握投资、交易的良机。',
+    tech: 'web',
+    href: 'https://app.mitrade.com/',
+    technical: ['Vue', 'ElementUI', 'Scss', 'Webpack'],
+    imagesArr: [{ thumb, url: Mitrade2, alt: 'Mitrade'}]
   },
   {
     projectId: 2,
-    img: PISX,
-    alt: 'PISX',
-    title: 'PISX',
-    desc: '面向工业厂区管理部门，支持融合工业大数据、物联网、人工智能等各类技术，整合厂区现有信息系统的数据资源，实现数字孪生工厂、设备运维监测、智能管网监测、综合安防监测、便捷通行监测、能效管理监测、生产管理监测、仓储物流监测等多种功能。',
-    tech: 'web & mobile',
-    href: 'https://www.pisx.com/',
-    technical: ['Vue', 'Antd', 'Scss', 'Webpack', 'IView', 'ThreeJS', 'Echarts', 'Npm'],
-    imagesArr: [{ thumb, url: PISX, alt: 'PISX'}]
-  },
-  {
-    projectId: 3,
-    img: Fs,
-    alt: 'FS-com-Data-Center-Enterprise-Telecom',
-    title: 'FS.com - 全球领先的通信与高速互联解决方案设备商',
-    desc: '飞速（FS）是一家数据中心、企业网、电信运营商网络解决方案提供商，我们帮助客户轻松部署和升级网络，助力其业务增长。',
-    tech: 'web & mobile',
-    href: 'https://www.fs.com/',
-    technical: ['Vue', 'Nuxt', 'Npm', 'Webpack', 'Less', 'JavaScript'],
-    imagesArr: [
-      { thumb, url: Fs1, alt: 'FS-com'},
-      { thumb, url: Fs2, alt: 'FS-com'},
-      { thumb, url: Fs3, alt: 'FS-com'},
-      { thumb, url: Fs4, alt: 'FS-com'},
-      { thumb, url: Fs5, alt: 'FS-com'}
-    ],
-  },
-  {
-    projectId: 4,
-    img: Community,
-    alt: 'FS-Community',
-    title: 'FS-Community',
-    desc: '探索FS社区，了解FS创新、行业见解、客户成功和独特故事。',
-    tech: 'web & mobile',
-    href: 'https://community.fs.com/',
-    technical: ['Vue', 'Nuxt', 'Npm', 'Webpack', 'Less', 'JavaScript'],
-    imagesArr: [
-      { thumb, url: Community, alt: 'FS-Community'},
-      { thumb, url: Community1, alt: 'FS-Community'},
-      { thumb, url: Community2, alt: 'FS-Community'},
-      { thumb, url: Community3, alt: 'FS-Community'},
-    ]
-  },
-  {
-    projectId: 5,
-    img: CMSLogin,
-    alt: 'FS-CMS',
-    title: 'FS-CMS',
-    desc: '商城后台内容管理系统',
+    img: Fxb,
+    alt: '丰向标',
+    title: '丰向标',
+    desc: '供应链全链路中心、经营分析、大屏监控、数据中心四大部分。能够支持不同类型企业的供应链运营监控任务，辅助高层决策、辅助中策运营管理，实时跟进供应链运营状态、发现问题、预警风险。支持供应链一单到底的全流程跟踪，在质量、时效、效能、成本、归因等方面助力分析，引入人工智能辅助进行深度解析，生成对应的数据报表和报告，以热力图、流向图、状态图、指标图表等形式大屏显示。',
     tech: 'web',
-    href: 'https://cms.fs.com/',
-    technical: ['React', 'Arco', 'Yarn', 'Webpack', 'Scss', 'TypeScript'],
-    imagesArr: [{ thumb, url: CMS, alt: 'FS-CMS'}]
-  },
-  {
-    projectId: 6,
-    img: CommunityLogin,
-    alt: 'FS-Community-CMS',
-    title: 'FS-Community-CMS',
-    desc: '社区后台内容管理系统',
-    tech: 'web',
-    href: 'https://cms.fs.com/',
-    technical: ['React', 'Antd', 'Yarn', 'Webpack', 'Sass', 'TypeScript'],
-    imagesArr: [{ thumb, url: CommunityCMS, alt: 'FS-Community-CMS'}]
+    href: 'https://saas-data.sf-express.com/',
+    technical: ['Vue', 'ElementUI', 'Scss', 'Webpack', 'Echarts', 'Npm'],
+    imagesArr: [{ thumb, url: Fxb, alt: 'PISX'}]
   }
+  // {
+  //   projectId: 3,
+  //   img: Fzyl,
+  //   alt: '丰智云链',
+  //   title: '丰智云链 - 供应链全场景解决方案',
+  //   desc: '物流中台、数字化仓储、智慧仓储等功能，是整个供应链交付执行的核心系统。整体建设内容包括TMS运输管理系统、WMS仓储管理系统、BMS结算管理系统等多个子系统，助力企业实现产业数智化升级。',
+  //   tech: 'web',
+  //   href: 'https://saas-tenant.sf-express.com/',
+  //   technical: ['Vue', 'React', 'Qiankun', 'Webpack', 'ElementUI', 'Antdesign'],
+  //   imagesArr: [
+  //     { thumb, url: Fzyl, alt: 'FS-com'}
+  //   ],
+  // }
 ]

@@ -27,7 +27,7 @@ const Home = () => {
     <section id="home" className={styles.home}>
       <Row className={styles.content}>
         <Col span={24} md={12} className={styles.intro}>
-          <p>我是XXX，</p>
+          <p>我是 艾青</p>
           <p>
             一个 前端工程师，写{" "}
             <span className={styles.react}>React/Vue</span> 的。
