@@ -63,8 +63,17 @@
       padding-left: 28px;
       padding-top: 12vh;
 
-      .react {
+      .name {
         color: #61dafb;
+        font-family: Heavy, Helvetica, Arial, sans-serif;
+        transition: text-decoration .3s;
+
+        &:hover {
+          text-decoration: underline
+        }
+      }
+      .react {
+        color: #bae8e8;
         font-family: Heavy, Helvetica, Arial, sans-serif;
         transition: text-decoration .3s;
 
