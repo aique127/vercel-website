@@ -40,9 +40,9 @@ const Footer = () => {
               ))}
             </div>
             <p className={styles.record}>
-              <a rel="noreferrer" target="_blank" href="https://beian.miit.gov.cn/">
-                鄂ICP备18004957号
-              </a>
+              {/* <a rel="noreferrer" target="_blank" href="https://beian.miit.gov.cn/">
+               备案号
+              </a> */}
             </p>
           </Slide>
         </Col>
@@ -54,9 +54,9 @@ const Footer = () => {
               ))}
             </div>
             <p className={styles.record}>
-              <a rel="noreferrer" target="_blank" href="https://beian.miit.gov.cn/">
-                鄂ICP备18004957号
-              </a>
+              {/* <a rel="noreferrer" target="_blank" href="https://beian.miit.gov.cn/">
+              备案号
+              </a> */}
             </p>
           </Slide>
         </Col>
